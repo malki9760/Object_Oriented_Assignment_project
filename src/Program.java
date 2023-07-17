@@ -1,6 +1,6 @@
 public class Program {
     public static void main(String[] args) {
-        Animal[] animals = { new Dog(true, true, 1), new Frog(false, false, 0), new Cat(true, true, 0)};
+        Animal[] animals = { new Dog(true, true, 1), new Frog(false, false, 0), new Cat(true, true, 1)};
         for (Animal animal : animals) {
             //Check the type of the Animal.
             String typeOfAnimal = "";
